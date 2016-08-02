@@ -1,0 +1,151 @@
+/* 初始化 */
+body{
+	font-family: "Microsoft YaHei";
+	background: #ececec;
+}
+input{
+	border: none;
+}
+nav{
+	background: rgb(51, 51, 51);
+}
+nav ul{
+	margin: 0 auto;
+	float: left;
+}
+nav ul li a{
+	color: #fff;
+}
+li{
+	list-style: none;
+}
+/* 初始化结束 */
+/* 导航 */
+@media (min-width: 1500px) { 
+	.container{
+		width: 1400px;
+	}
+}
+.nav_right{
+	float: right;
+	margin-top: 5px;
+}
+.nav_right_1{
+	outline: none;
+	height: 30px;
+	background: rgb(94, 103, 117);
+	text-indent: 10px;
+	width: 100px;
+}
+.nav_right_2{
+	background: rgb(92, 184, 92);
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	border-radius: 3px;
+}
+.nav_right_3{
+	background: rgb(91, 192, 222);
+	width: 80px;
+	height: 30px;
+	color: #fff;
+	border-radius: 3px;
+
+}
+/* 导航结束 */
+/* 横幅 */
+
+.fir_ad{
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+.fir_ad img{
+	margin-bottom: 3px;
+	margin-right: 4px;
+}
+.fir_ad a{
+	color: #606060;
+	font-size: 16px;
+}
+.fir_ad a:hover{
+	text-decoration: underline;
+}
+.row img{
+	width: 100%;
+}
+.row p{
+	text-align: center;
+}
+/* 横幅结束 */
+
+.sec_ad{
+	margin-top: 20px;
+}
+.avatar{
+	border-radius: 50%;
+}
+.img_ img{
+	float: left;
+	width: 44px;
+	height: 44px;
+}
+.list-group-item{
+	padding-top: 5px;
+	line-height: 44px;
+}
+.list-group-item span{
+	margin: 0 4px;
+}
+.a_image{
+	width: 10% !important;
+	margin-left: 20px;
+}
+.media_txt{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.media_pic{
+	float: right;
+}
+
+/* 底部 */
+footer{
+	background: #fff;
+}
+.logo{
+	width: 30%;
+	margin-top: 40px;
+}
+.view_som{
+	float: right;
+}
+.view_som img{
+	margin-left: 20px;
+	margin-top: 40px;
+}
+.interduce{
+	color: #988A8A;
+	margin-top: 10px;
+}
+.footer_right_1{
+	margin-top: 40px;
+}
+.footer_right_1 p{
+	margin-left: 90px;
+}
+.footer_right_1 img{
+}
+.footer_right_2{
+	margin-top: 40px;
+}
+.footer_right_2 p{
+	color: #988A8A;
+}
+.footer_right_2 img{
+	width: 84px;
+	height: 84px;
+}
+/* 底部结束 */
